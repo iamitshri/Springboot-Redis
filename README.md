@@ -1,1 +1,1 @@
-Install Redis on the locally to run this sample app
+Install Redis locally to run this sample app
