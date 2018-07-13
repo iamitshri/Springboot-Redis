@@ -27,7 +27,10 @@ public class AnimalController {
 
 	@GetMapping("/animal")
 	public List<String> getAnimals() {
-		return animalSvc.getAnimals();
+		 System.out.println("Controller::START ");
+		 List<String> strs = animalSvc.getAnimals();
+		 System.out.println("Controller::END ");
+		 return strs ;
 	}
 	
 	@PostMapping("/student")
